@@ -2,6 +2,8 @@ import numpy as np
 import time
 from q_learning_agent import QLearningAgent, TeacherAgent
 from utils import print_board, check_winner
+import random
+from random_agent import RandomAgent
 
 def train_agent(episodes=50000, learning_rate=0.1, discount_factor=0.9, epsilon=0.5, epsilon_decay=0.99995, epsilon_min=0.01):
     """

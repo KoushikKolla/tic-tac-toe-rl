@@ -9,7 +9,6 @@ from utils import check_winner, is_board_full, is_fork, get_defensive_reward
 from random_agent import RandomAgent
 from weak_teacher_agent import WeakTeacherAgent
 from strong_teacher_agent import StrongTeacherAgent
-from dqn_agent import DQNAgent
 
 class TicTacToeGUI:
     def __init__(self, root):
